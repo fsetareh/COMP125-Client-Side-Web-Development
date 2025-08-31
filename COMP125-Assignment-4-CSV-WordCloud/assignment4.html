@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV to JSON Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Word Cloud Library -->
+<script src="https://cdn.jsdelivr.net/npm/wordcloud@1.1.2/src/wordcloud2.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>CSV to JSON Converter</h1>
+
+<!-- Decorative Image -->
+<img src="programming.jpg" alt="Programming Languages" class="banner-img">
+
+
+        <input type="file" id="fileInput" accept=".csv">
+        <button onclick="handleFileUpload()">Upload and Convert</button>
+        <div id="message"></div>
+        <div id="tableContainer"></div>
+        <canvas id="chartContainer"> </canvas>
+
+<hr>
+<h2>Word Cloud Generator from URL</h2>
+<input type="text" id="urlInput" placeholder="Enter a URL (e.g. https://example.com)">
+<button onclick="generateWordCloud()">Generate Word Cloud</button>
+<canvas id="wordCloudCanvas" width="800" height="400"></canvas>
+<div id="wordCloudMessage"></div>
+
+
+
+       
+            <!-- Footer -->
+    <footer>&copy; 2025 Fatemeh Setareh | COMP125 Assignment 4</footer>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
