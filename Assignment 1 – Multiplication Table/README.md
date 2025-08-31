@@ -30,5 +30,10 @@ This project generates a dynamic multiplication table based on user input for nu
 
 ---
 
+
+## 📎 Links
+
+http://studentweb.cencol.ca/fsetareh/COMP125-assignment_1/assignment-1.html
+
 © 2025 Fatemeh Setareh. All rights reserved.
 
