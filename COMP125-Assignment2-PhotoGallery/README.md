@@ -20,5 +20,5 @@
 COMP125 – Client-Side Web Development  
 Centennial College
 
-## Live Demo
-💡
+## Link
+💡http://studentweb.cencol.ca/fsetareh/COMP125-Assignment_2/photos.htm
